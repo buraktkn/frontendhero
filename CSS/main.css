@@ -1,0 +1,45 @@
+.container{
+    margin-left: auto;
+    float: left;
+}
+#navbar{
+    background-color: ffffff;
+}
+#search{
+    height: 20px;
+    width: 180px;
+    margin-left: 20px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul#main-list li {
+    float: left;
+    position: relative;
+    width: 100px;
+}
+
+ul#main-list li ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    height: 40px;
+}
+ul li a:hover{
+    color: #00D076;
+}
+ul#main-list li:hover ul{
+    display: block;
+    background-color: fff;
+}
